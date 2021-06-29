@@ -4,9 +4,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+
 class enemy
 {
 public:
+	enemy();
 	void InitStatus(const char* enemyName);
 	void ShowStatus();
 
@@ -17,11 +20,6 @@ private:
 
 	int Atk;
 	int Def;
-
-
-
-
-
 };
 
 
